@@ -1,0 +1,14 @@
+{
+  "name": "shogun-s-reign-wiki",
+  "compatibility_date": "2024-09-01",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out"
+  },
+  "routes": [
+    {
+      "pattern": "shogun-s-reign.wiki",
+      "custom_domain": true
+    }
+  ]
+}
