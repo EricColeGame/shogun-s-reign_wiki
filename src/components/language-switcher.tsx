@@ -11,12 +11,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-const LOCALE_LABELS: Record<string, string> = {
+const LOCALE_LABELS = {
   en: "English",
   es: "Español",
   pt: "Português",
   ja: "日本語",
-};
+} satisfies Record<Locale, string>;
 
 /**
  * 语言切换器（下拉菜单版）：点击 Globe 图标展开所有语言列表
