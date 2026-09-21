@@ -15,18 +15,7 @@ const LOCALE_LABELS: Record<string, string> = {
   en: "English",
   es: "Español",
   pt: "Português",
-  de: "Deutsch",
-  fr: "Français",
   ja: "日本語",
-  zh: "简体中文",
-  ko: "한국어",
-  ru: "Русский",
-  it: "Italiano",
-  ar: "العربية",
-  th: "ไทย",
-  vi: "Tiếng Việt",
-  id: "Bahasa Indonesia",
-  tr: "Türkçe",
 };
 
 /**
