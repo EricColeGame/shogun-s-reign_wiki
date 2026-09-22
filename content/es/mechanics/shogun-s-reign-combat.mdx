@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Dominando el combate de Shogun's Reign: Guía completa de mecánicas y duelos",
+  description: "Domina cada duelo con nuestra guía de mecánicas de combate de Shogun's Reign: posturas de katana, tiempos de desvío, roturas de postura y estadísticas de armas.",
+  category: "mechanics",
+  date: "2026-09-21",
+};
+
+Dominar el **combate de Shogun's Reign** es la diferencia definitiva entre gobernar el campo de batalla o caer víctima del rápido contraataque de un adversario. En escaramuzas feudales de alto riesgo, un solo golpe a destiempo o un sprint imprudente pueden agotar tu guardia y dejar a tu personaje completamente vulnerable. Ya sea que te adentres en batallas de clanes organizadas o recorras caminos disputados, comprender los sistemas esenciales del **combate de Shogun's Reign** te garantizará dictar el ritmo de cada enfrentamiento.
+
+Para triunfar en este entorno, los guerreros deben ir más allá de simplemente machacar botones. El éxito depende de anticipar las animaciones de ataque, gestionar rigurosamente la barra de postura y ejecutar ventanas de desvío (parry) precisas frente a rivales hostiles. Esta guía detalla las matemáticas subyacentes, las interacciones de fotogramas, las clases de armas y las estrategias de posicionamiento necesarias para perfeccionar tus habilidades en los duelos.
+
+## Fundamentos principales: Mecánicas de postura, resistencia y guardia
+
+En su núcleo, el **combate de Shogun's Reign** se basa en un esquema de dos recursos: Resistencia (Stamina) y Postura. La resistencia alimenta tu repertorio ofensivo, regulando tajos ligeros, estocadas pesadas, aceleraciones y esquivas con voltereta. Si tu resistencia llega a cero, tu guerrero entra en un estado de agotamiento que desactiva las maniobras defensivas y ralentiza drásticamente la velocidad de movimiento.
+
+La postura, por contraparte, representa el equilibrio y la compostura física bajo ataque. Bloquear ofensivas drena la postura en lugar de la salud bruta. Cuando un golpe entrante supera el límite absoluto de tu medidor de postura, tu guardia se rompe. Una rotura de guardia te deja aturdido durante varios segundos críticos, otorgando a tu oponente una ventana garantizada para una ejecución imparable o una secuencia completa de combos.
+
+```
+Ataque entrante ──► Bloquear / Guardia ──► ¿Postura agotada? ──► [SÍ] Rotura de guardia / Gran aturdimiento
+                                              │
+                                             [NO]
+                                              ▼
+                                       Mantener equilibrio
+```
+
+Administrar estos dos medidores requiere una observación constante. Retroceder sin bloquear acelera la recuperación de tu postura, mientras que mantener la guardia defensiva reduce la regeneración de resistencia a un ritmo mínimo. Equilibrar el ataque y la retirada es la verdadera marca de la esgrima de élite.
+
+| Acción defensiva | Coste de resistencia | Impacto en la postura | Tiempo de recuperación | Nivel de riesgo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Guardia estándar** | Ninguno (Drenaje pasivo por golpe) | Aumento moderado por golpe desviado | Muy lento mientras se mantiene | Bajo (vulnerable a roturas de guardia) |
+| **Desvío perfecto (Parry)** | Coste inicial mínimo | Cero daño de postura (daña la postura del atacante) | Recuperación instantánea a estado neutral | Alto (ventana de tiempo estricta) |
+| **Paso atrás evasivo** | Coste fijo moderado | Anula por completo el impacto de postura | Pocos fotogramas de recuperación | Medio (castigable mediante arremetidas) |
+| **Rodar lateralmente** | Coste fijo alto | Otorga breves fotogramas de invulnerabilidad | Fotogramas de recuperación moderados | Medio-Alto (agota la resistencia) |
+| **Técnica de rotura de guardia** | Gran drenaje si se falla la lectura | Hace tambalear al usuario si es contrarrestada | Aturdimiento prolongado de recuperación | Alto (gran recompensa si tiene éxito) |
+
+## Arquetipos de armas y roles en el campo de batalla
+
+Cada disciplina armamentística introducida en el **combate de Shogun's Reign** responde a objetivos tácticos específicos. Mientras que la clásica Uchigatana ofrece fotogramas de inicio y recuperación equilibrados, las armas de asta más largas proporcionan opciones inigualables de control de distancia a expensas de la defensa a corta distancia.
+
+Seleccionar el arma adecuada requiere comprender el alcance, el daño de equilibrio (poise) y la recuperación tras enfundar. Según los informes continuos de la comunidad y la experiencia de jugadores veteranos, adaptar la elección del arma a tu estilo de juego natural ofrece resultados muy superiores a seguir ciegamente los cambios de balance percibidos.
+
+Puedes pulir tus reflejos en varias arenas comunitarias en la [plataforma Roblox](https://www.roblox.com), donde los combates personalizados te permiten probar tiempos de recuperación sin poner en riesgo tu rango o inventario.
+
+| Tipo de arma | Escalado principal | Alcance ideal | Velocidad de ataque | Potencial de aturdimiento | Descripción del estilo de juego |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Uchigatana** | Agilidad / Destreza | Medio | Rápida | Moderado | Arma de duelo versátil con rápida recuperación. |
+| **Nodachi** | Fuerza | Largo | Lenta | Muy alto | Golpes amplios y pesados, ideales para peleas en equipo y control de espacio. |
+| **Yari (Lanza)** | Destreza | Muy largo | Moderada | Alto | Estocadas lineales que castigan cargas frontales imprudentes. |
+| **Tanto (Daga)** | Agilidad | Muy corto | Extremadamente rápida | Bajo | Arma de alta presión enfocada en sangrados rápidos y filtración de guardia. |
+| **Kanabo** | Fuerza bruta | Medio-Largo | Muy lenta | Devastador | Garrote contundente diseñado específicamente para aplastar escudos defensivos. |
+
+### Ataques ligeros frente a variaciones pesadas
+
+En los duelos habituales, los ataques ligeros sirven para confirmar impactos. Se encadenan con rapidez y pueden cancelarse en posturas defensivas durante los primeros fotogramas de inicio. Sin embargo, los ataques ligeros continuos son fáciles de predecir e invitan a devastadores contraataques por desvío.
+
+Los ataques pesados eluden la eficacia de la guardia estándar e infligen un grave daño de postura. Cargar un ataque pesado altera el momento del impacto, desconcertando a los rivales que levantan la guardia de forma prematura. Integrar golpes pesados retardados en tus combinaciones habituales sigue siendo una táctica esencial en el **combate de Shogun's Reign**.
+
+## Sincronización precisa: Domina desvíos, fintas y contraataques
+
+El dominio de la defensa separa a los jugadores casuales de los duelistas de nivel de torneo. El sistema de desvío opera en ventanas de fotogramas activos muy reducidas, activándose normalmente en la primera fracción de segundo tras levantar la guardia.
+
+Si tu desvío impacta contra el golpe enemigo, tu oponente sufre una animación de retroceso inmediata, reiniciando su combo y dejándolo expuesto a una represalia instantánea. Fallar la ventana de desvío, no obstante, fuerza tu guardia a un bloqueo estándar o te deja directamente vulnerable a recibir daño limpio.
+
+Para no volverte predecible, los guerreros expertos recurren a las fintas. Al cancelar una animación de ataque a mitad de su inicio, obligas a tu adversario a comprometerse con un desvío o una esquiva antes de tiempo. Una vez que su ventana defensiva caduca durante la fase de recuperación, lanzas tu verdadero asalto.
+
+| Escenario de combate | Acción del oponente | Reacción óptima | Dificultad de ejecución | Recompensa del contraataque |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ataque pesado telegrafiado** | Preparación con señal de audio prolongada | Desvío perfecto en el punto más alto de la hoja | Media | Rotura total de equilibrio y tajo de contraataque |
+| **Spam de ataques ligeros** | Ataques continuos sin pausa | Esquiva con paso atrás y arremetida hacia adelante | Fácil | Castigo de fallo (whiff punish) durante su recuperación |
+| **Enclaustramiento defensivo** | Mantener bloqueo alto continuo | Patada pesada o rompeguardias cargado | Fácil | Aturdimiento inmediato por aplastamiento de guardia |
+| **Finta agresiva** | Cancelar golpe para provocar el desvío | Mantener la guardia; no pulsar el desvío antes de tiempo | Difícil | Restablece el combate neutral; evita caer en la trampa |
+| **Estocada en carrera** | Ataque frontal en sprint | Rodar lateralmente seguido de un combo rápido con Tanto | Difícil | Daño crítico por la espalda |
+
+## Juego de pies táctico, espaciado y castigo de fallos
+
+El posicionamiento es tan crucial como la velocidad de la espada. Castigar fallos (whiff punishing) —el arte de provocar que el enemigo golpee al aire para luego castigar sus fotogramas de recuperación— es la forma más limpia de infligir daño sin respuesta en el **combate de Shogun's Reign**.
+
+Para ejecutar castigos de fallos con consistencia, mantén a tu guerrero justo fuera del radio de alcance del arma enemiga. En el instante en que ejecute una animación que no conecte, avanza de inmediato para explotar sus fotogramas desprotegidos.
+
+```
+El oponente ataca (fuera de rango) ──► Ocurre el fallo (Whiff) ──► Acortas la distancia ──► Contraataque garantizado
+```
+
+Correr drena la resistencia, por lo que los duelistas experimentados prefieren caminar rítmicamente y usar microaceleraciones. Caminar conserva tu medidor, asegurando un acceso total a volteretas evasivas siempre que una estocada imparable invada tu espacio.
+
+| Estado de movimiento | Impacto en la resistencia | Capacidad de evasión | Ventanas de vulnerabilidad | Propósito táctico |
+| :--- | :--- | :--- | :--- | :--- |
+| **Caminar neutral** | Regeneración total activa | Salto/esquiva estándar disponibles | Baja | Cebo de distancia; mantenimiento de medidor |
+| **Fijación de combate** | Regeneración normal | Desplazamientos laterales desbloqueados | Baja | Duelo de precisión; desplazamientos circulares |
+| **Maniobra de sprint** | Drenaje continuo moderado | Transición instantánea a deslizamiento | Alta (no se puede desviar de inmediato) | Reposicionamiento o cierre de brechas |
+| **Voltereta evasiva** | Gran consumo único | Invulnerable durante los fotogramas iniciales | Alta durante la recuperación final | Escapar de esquinas y ataques de área |
+| **Paso lateral rápido** | Bajo consumo único | Cambio rápido de ángulo lateral | Media | Esquivar estocadas lineales de lanza |
+
+## Errores comunes y cómo explotar los hábitos del enemigo
+
+Los hábitos de los jugadores suelen seguir patrones predecibles. En encuentros intensos, los luchadores presas del pánico tienden a encadenar volteretas evasivas hacia atrás, consumiendo toda su resistencia antes de buscar una apertura. Reconocer estas reacciones subconscientes te permitirá asegurar victorias rápidas.
+
+Según informes extendidos en la comunidad, los duelistas novatos suelen pulsar repetidamente el botón de bloqueo con la esperanza de conseguir un desvío afortunado. Esta práctica, conocida como "aleteo de desvío" (parry fluttering), en realidad incrementa la vulnerabilidad al reducir las ventanas activas de desvío con cada pulsación rápida. Cuando notes que un rival aletea su guardia, retrasa tu golpe medio segundo para asestar un impacto limpio justo cuando sus fotogramas activos desaparezcan.
+
+| Mal hábito | Por qué falla | Cómo castigarlo | Resultado esperado |
+| :--- | :--- | :--- | :--- |
+| **Rodar por pánico** | Agota rápidamente toda la barra de resistencia | Retrasa tu persecución; ataca cuando salga de la voltereta | Golpe gratuito durante el retardo final |
+| **Aleteo de desvío** | Reduce drásticamente los fotogramas activos | Mantén un ataque pesado retardado | Golpe garantizado a través de la guardia rota |
+| **Agresividad excesiva** | Deja cero resistencia para defenderse | Absorbe un golpe y desvía el segundo | Cambio instantáneo de la iniciativa |
+| **Acorralarse hacia atrás** | Elimina el espacio de evasión posterior | Avanza con tajos amplios y continuos | El rival atrapado sufre aturdimiento contra la pared |
+| **Levantadas predecibles** | Atacar inmediatamente al ponerse de pie | Sincroniza un desvío anticipado sobre su cuerpo al levantarse | Derribo secundario inmediato |
+
+## Unificando todo: Hoja de ruta hacia la maestría
+
+Elevar tu nivel de ejecución en el **combate de Shogun's Reign** es un proceso progresivo. En lugar de intentar integrar fintas avanzadas, microespaciado y cancelaciones de postura al mismo tiempo, concéntrate en dominar un elemento fundamental a la vez:
+
+1. **Prioriza la defensa primero:** Entra a los duelos con el único objetivo de observar los ataques telegrafiados y acertar desvíos, sin preocuparte por el daño que causes hasta que los tiempos de reacción se vuelvan instintivos.
+2. **Supervisa la barra de postura:** Entrena la vista para registrar tanto tu postura como la de tu oponente, de modo que sepas con exactitud cuándo un solo golpe pesado provocará una rotura de guardia.
+3. **Domina los límites de alcance:** Aprende el alcance exacto de la Uchigatana, el Yari y la Nodachi para no fallar nunca un contraataque debido a una mala colocación.
+4. **Incorpora el engaño:** Una vez que tus bases sean sólidas, mezcla fintas en tus rotaciones ofensivas para quebrar las defensas más experimentadas.
+
+Con práctica constante y una gestión disciplinada de la resistencia, transformarás cada enfrentamiento en una lección magistral de combate samurái táctico.
+
+## Preguntas frecuentes
+
+### ¿Qué causa una rotura de guardia instantánea en el combate de Shogun's Reign?
+Una rotura de guardia instantánea ocurre cuando un ataque entrante agota el resto de tu medidor de postura mientras estás bloqueando activamente. Ciertas armas pesadas, como el Kanabo o los ataques a dos manos completamente cargados, infligen un daño masivo de postura que puede quebrar tu guardia en tan solo uno o dos golpes bloqueados si tu postura ya estaba comprometida.
+
+### ¿Cómo puedo mejorar la sincronización del desvío (parry) en el combate de Shogun's Reign?
+Mejorar la consistencia de tus desvíos requiere estudiar las animaciones iniciales del arma enemiga en lugar de observar el modelo de su personaje de forma global. Activa tu desvío justo cuando la hoja rival pase de la fase de preparación al balanceo hacia adelante. Evita machacar el botón de bloqueo, ya que las pulsaciones repetidas disminuyen la ventana activa de desvío.
+
+### ¿Afecta el peso de la armadura a la movilidad en combate?
+Sí. De acuerdo con la experiencia de los jugadores y las pruebas mecánicas, equipar conjuntos de armadura más pesados incrementa tu reducción pasiva de daño y la resistencia al aturdimiento, a costa de reducir la regeneración de resistencia y la distancia de las volteretas. Las configuraciones de armadura ligera permiten reposicionamientos rápidos, siendo ideales para estilos de duelo ágiles.
+
+### ¿Es más importante el espaciado que la longitud del combo en el combate de Shogun's Reign?
+El espaciado se considera generalmente más vital que los combos largos, ya que las cadenas de ataque prolongadas pueden ser desviadas o interrumpidas. Un buen control de la distancia te permite provocar fallos en el enemigo y ejecutar castigos limpios y sin riesgo, manteniendo protegidos tus propios recursos.

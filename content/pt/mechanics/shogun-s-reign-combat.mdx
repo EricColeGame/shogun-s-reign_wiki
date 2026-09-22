@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Dominando o Combate de Shogun's Reign: Guia Completo de Mecânicas e Duelos",
+  description: "Domine cada duelo com nosso guia de mecânicas de combate de Shogun's Reign, cobrindo posturas de katana, timing de parry, quebras de postura e atributos de armas.",
+  category: "mechanics",
+  date: "2026-09-21",
+};
+
+Dominar o **combate de Shogun's Reign** é o diferencial definitivo entre governar o campo de batalha e se tornar vítima do contra-ataque rápido de um oponente. Em confrontos feudais de alto risco, um único golpe fora de tempo ou uma corrida imprudente pode esgotar sua guarda e deixar seu personagem completamente vulnerável. Quer você esteja entrando em batalhas organizadas de clãs ou explorando estradas disputadas, entender os sistemas centrais do **combate de Shogun's Reign** garante que você dite o ritmo de cada confronto.
+
+Para prosperar neste ambiente, os guerreiros precisam ir além do simples esmagamento de botões. O sucesso depende de ler as animações de preparação (windup), gerenciar uma barra rigorosa de postura e executar janelas precisas de parry contra combatentes hostis. Este guia detalha a matemática fundamental, as interações de frames, as classes de armas e as estratégias de posicionamento necessárias para afiar suas habilidades de duelo.
+
+## Fundamentos Essenciais: Postura, Estamina e Mecânicas de Guarda
+
+Em sua essência, o **combate de Shogun's Reign** baseia-se em uma estrutura de dois recursos: Estamina e Postura. A estamina alimenta seu repertório ofensivo — controlando cortes rápidos, estocadas pesadas, esquivas e rolamentos direcionais. Se a sua estamina chegar a zero, seu guerreiro entra em um estado de exaustão, desativando manobras defensivas e reduzindo drasticamente sua velocidade de movimento.
+
+A postura, por outro lado, representa o equilíbrio e a compostura física sob ataque. Bloquear ataques consome postura em vez de vida bruta. Quando um golpe recebido ultrapassa o limite absoluto da sua barra de postura, sua guarda é quebrada. Uma quebra de guarda deixa você atordoado por vários momentos críticos, oferecendo ao oponente uma janela garantida para uma execução indefensável ou uma sequência de combos devastadora.
+
+```
+Ataque Recebido ──► Bloqueio / Guarda ──► Postura Esgotada? ──► [SIM] Quebra de Guarda / Atordoamento Pesado
+                                              │
+                                            [NÃO]
+                                              ▼
+                                       Manter Equilíbrio
+```
+
+Gerenciar esses dois medidores exige observação atenta. Recuar sem bloquear acelera a recuperação de sua postura, enquanto manter a postura defensiva reduz a regeneração de estamina a passos lentos. Equilibrar ataque e recuo é a verdadeira marca da esgrima de elite.
+
+| Ação Defensiva | Custo de Estamina | Impacto na Postura | Tempo de Recuperação | Nível de Risco |
+| :--- | :--- | :--- | :--- | :--- |
+| **Guarda Padrão** | Nenhum (consumo passivo por golpe) | Acúmulo moderado por golpe desviado | Muito lento enquanto mantida | Baixo (vulnerável a quebras de guarda) |
+| **Parry Perfeito** | Custo inicial mínimo | Zero dano de postura (danifica a postura do atacante) | Recuperação instantânea para o neutro | Alto (janela de tempo rigorosa) |
+| **Esquiva para Trás** | Custo fixo moderado | Anula completamente o impacto na postura | Poucos frames de recuperação | Médio (pode ser punido por investidas) |
+| **Rolamento Lateral** | Custo fixo alto | Concede breves frames de invulnerabilidade | Frames de recuperação moderados | Médio-Alto (esgota a estamina) |
+| **Técnica de Quebra de Guarda** | Alto consumo em leitura errada | Desestabiliza o usuário se sofrer contra-ataque | Longo atordoamento de recuperação | Alto (alta recompensa se bem-sucedido) |
+
+## Arquétipos de Armas e Funções no Campo de Batalha
+
+Cada disciplina de armas apresentada no **combate de Shogun's Reign** atende a objetivos táticos distintos. Enquanto a clássica Uchigatana oferece frames de início e recuperação equilibrados, armas de haste mais longas fornecem opções incomparáveis de controle de distância (zoning) às custas da defesa a curta distância.
+
+Selecionar a arma apropriada exige a compreensão de alcance, dano de equilíbrio (poise) e recuperação ao embainhar. Com base em relatos contínuos da comunidade e na experiência de jogadores veteranos, adaptar a escolha da sua arma ao seu estilo de jogo natural traz resultados muito melhores do que perseguir rigidamente as alterações de meta e balanceamento.
+
+Você pode aprimorar seus reflexos em várias arenas comunitárias na [plataforma Roblox](https://www.roblox.com), onde partidas personalizadas permitem que você teste tempos de recuperação sem arriscar seu ranking ou inventário.
+
+| Tipo de Arma | Escalonamento Primário | Alcance Ideal | Velocidade de Ataque | Potencial de Desequilíbrio | Descrição do Estilo de Jogo |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Uchigatana** | Agilidade / Destreza | Médio | Rápido | Moderado | Arma de duelo versátil com recuperação rápida. |
+| **Nodachi** | Força | Longo | Lento | Muito Alto | Golpes amplos e pesados, ideais para lutas em equipe e controle de espaço. |
+| **Yari (Lança)** | Destreza | Muito Longo | Moderado | Alto | Estocadas lineares que punem avanços frontais imprudentes. |
+| **Tanto (Adaga)** | Agilidade | Muito Curto | Extremamente Rápido | Baixo | Arma de alta pressão focada em sangramento rápido e infiltração de guarda. |
+| **Kanabo** | Força Bruta | Médio-Longo | Muito Lento | Devastador | Clava contundente projetada especificamente para esmagar escudos defensivos. |
+
+### Ataques Leves vs. Variações Pesadas
+
+Em duelos padrão, ataques leves servem para confirmar acertos (hit-confirms). Eles se encadeiam rapidamente e podem ser cancelados em posturas defensivas durante os primeiros frames de início. No entanto, ataques leves repetidos tornam-se fáceis de prever e abrem brechas para contra-ataques devastadores de parry.
+
+Ataques pesados contornam a eficiência da guarda padrão e infligem grande trauma à postura. Carregar um ataque pesado altera o tempo de liberação do golpe, confundindo oponentes que erguem a guarda precocemente. Integrar golpes pesados com atraso às suas sequências normais continua sendo uma tática indispensável no **combate de Shogun's Reign**.
+
+## Timing de Precisão: Domine Parries, Fintas e Contra-Ataques
+
+O domínio defensivo separa jogadores casuais de duelistas de nível competitivo. O sistema de parry opera em janelas ativas estreitas, geralmente ativando-se na primeira fração de segundo após levantar sua guarda.
+
+Se o seu parry interceptar o golpe inimigo, seu oponente sofrerá uma animação imediata de recuo, reiniciando o combo dele e deixando-o aberto para uma retaliação instantânea. Errar a janela do parry, no entanto, força sua guarda para um bloqueio padrão ou deixa você totalmente exposto a dano limpo.
+
+Para evitar se tornar previsível, guerreiros experientes utilizam fintas. Ao cancelar a animação de um ataque no meio de sua preparação, você força o adversário a se comprometer com um parry ou esquiva antecipadamente. Assim que a janela defensiva dele se encerrar durante a fase de recuperação, você desfere seu verdadeiro ataque.
+
+| Cenário de Combate | Ação do Oponente | Reação Ideal | Dificuldade de Execução | Recompensa do Contra-Ataque |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ataque Pesado Telegrafado** | Preparação com sinal sonoro prolongado | Parry Perfeito no pico de elevação da lâmina | Média | Quebra total de equilíbrio e contra-ataque cortante |
+| **Spam de Ataques Leves** | Golpes neutros contínuos | Esquiva para trás, seguida de estocada para a frente | Fácil | Punição de golpe no vazio (whiff) na recuperação |
+| **Tartaruga Defensiva** | Mantendo bloqueio alto contínuo | Chute pesado ou quebra de guarda carregada | Fácil | Atordoamento imediato por esmagamento de guarda |
+| **Finta Agressiva** | Cancelamento de golpe para induzir o parry | Segure a guarda; não pressione o parry cedo | Difícil | Restaura o neutro; evita a armadilha da finta |
+| **Estocada em Corrida** | Ataque em investida rápida | Rolamento lateral seguido de combo rápido de Tanto | Difícil | Dano crítico de ataque pelas costas |
+
+## Movimentação Tática, Espaçamento e Punição de Whiff
+
+O posicionamento é tão crucial quanto a velocidade da lâmina. A punição de whiff — a arte de induzir o inimigo a desferir um golpe no ar para punir seus frames de recuperação — é a maneira mais limpa de causar dano incontestável no **combate de Shogun's Reign**.
+
+Para executar punições de whiff consistentes, mantenha seu guerreiro logo fora do raio de alcance da lâmina do adversário. No momento em que ele se comprometer com uma animação que erra o alvo, dê um passo à frente para explorar seus frames de abertura.
+
+```
+Oponente Ataca (Fora de Alcance) ──► Ocorre o Whiff ──► Você Encurta a Distância ──► Contra-Ataque Garantido
+```
+
+Correr consome estamina, de modo que duelistas experientes preferem caminhadas rítmicas e pequenos avanços rápidos. Caminhar preserva sua barra, assegurando acesso total a rolamentos evasivos sempre que uma estocada indefensável invadir seu espaço.
+
+| Estado de Movimento | Impacto na Estamina | Capacidade de Evasão | Janelas de Vulnerabilidade | Propósito Tático |
+| :--- | :--- | :--- | :--- | :--- |
+| **Caminhada Neutra** | Regeneração total ativa | Pulo/esquiva padrão prontos | Baixa | Indução de espaçamento; manutenção de recursos |
+| **Foco de Combate (Lock-On)** | Regeneração normal | Movimentação lateral destravada | Baixa | Duelos de precisão; circundar o oponente |
+| **Manobra de Corrida** | Consumo moderado contínuo | Transição instantânea para deslize | Alta (não pode aparar imediatamente) | Reposicionamento ou fechamento de distância |
+| **Rolamento Evasivo** | Consumo fixo substancial | Invulnerável durante frames iniciais | Alta durante a recuperação final | Fuga de cantos e ataques em área |
+| **Salto Lateral Rápido** | Consumo fixo baixo | Mudança angular rápida | Média | Desvio de estocadas lineares de lança |
+
+## Erros Comuns e Como Explorar os Hábitos dos Inimigos
+
+Os hábitos dos jogadores costumam seguir padrões previsíveis. Em confrontos intensos, lutadores em pânico tendem a rolar repetidamente para trás, queimando toda a sua estamina antes mesmo de buscar uma abertura. Reconhecer esses padrões subconscientes permite que você garanta vitórias rápidas.
+
+De acordo com amplos relatos da comunidade, duelistas novatos frequentemente tocam o botão de bloqueio repetidamente na esperança de acertar um parry na sorte. Essa prática, conhecida como "parry fluttering", na verdade aumenta a vulnerabilidade ao reduzir as janelas ativas de parry a cada toque rápido. Ao notar um oponente oscilando a guarda dessa maneira, atrase seu golpe em meio segundo para acertar um impacto limpo assim que os frames ativos dele entrarem em colapso.
+
+| Hábito Ruim | Por Que Falha | Como Punir | Resultado Esperado |
+| :--- | :--- | :--- | :--- |
+| **Rolamento de Pânico** | Esgota toda a barra de estamina rapidamente | Atraso na perseguição; golpeie na saída do rolamento | Golpe livre durante a recuperação final |
+| **Oscilação de Parry (Fluttering)** | Reduz drasticamente os frames ativos | Segure um ataque pesado atrasado | Golpe garantido através da guarda quebrada |
+| **Agressividade Excessiva** | Deixa zero estamina para a defesa | Absorva um golpe e apare o segundo | Mudança imediata de ritmo a seu favor |
+| **Ficar Preso no Canto** | Elimina o espaço de fuga para trás | Avance com cortes amplos e circulares | Oponente encurralado sofre atordoamento na parede |
+| **Levantadas Previsíveis** | Atacar imediatamente ao se levantar do chão | Antecipe o timing de um parry sobre o corpo erguendo-se | Nova derrubada imediata |
+
+## Juntando Tudo: Um Roteiro para a Maestria
+
+Elevar a sua execução no **combate de Shogun's Reign** é um processo gradual. Em vez de tentar integrar fintas avançadas, microespaçamento e cancelamentos de postura de uma só vez, concentre-se em dominar um elemento fundamental por vez:
+
+1. **Priorize a Defesa Primeiro:** Entre nos duelos com o único objetivo de observar as animações de ataque inimigas e acertar parries, desconsiderando o seu próprio dano até que o timing se torne natural.
+2. **Monitore a Barra de Postura:** Treine seus olhos para acompanhar tanto a sua postura quanto a barra do seu oponente, para que você saiba exatamente quando um único golpe pesado causará um esmagamento de guarda.
+3. **Domine os Limites de Alcance:** Conheça o alcance exato da Uchigatana, da Yari e da Nodachi para nunca errar um contra-ataque por falha de posicionamento.
+4. **Incorpore a Dissimulação:** Quando seus fundamentos estiverem sólidos, adicione fintas às suas rotações de ataque para penetrar defesas experientes.
+
+Com prática constante e gerenciamento disciplinado de estamina, você transformará cada confronto em uma verdadeira aula de combate tático samurai.
+
+## Perguntas Frequentes
+
+### O que causa uma quebra de guarda instantânea no combate de Shogun's Reign?
+Uma quebra de guarda instantânea ocorre quando um golpe recebido consome o restante da sua barra de postura enquanto você está bloqueando ativamente. Certas armas pesadas, como o Kanabo ou ataques de duas mãos totalmente carregados, causam um trauma massivo à postura, capaz de estilhaçar sua defesa em apenas um ou dois golpes desviados se sua postura já estiver comprometida.
+
+### Como posso melhorar meu timing de parry no combate de Shogun's Reign?
+Melhorar a consistência do seu parry exige estudar as animações de início da arma do oponente, em vez de observar o modelo do personagem como um todo. Ative o parry exatamente no momento em que a lâmina inimiga faz a transição da fase de preparação para o golpe frontal. Evite apertar repetidamente o botão de bloqueio, pois comandos consecutivos diminuem a janela ativa do parry.
+
+### O peso da armadura afeta minha mobilidade de combate?
+Sim. Com base na experiência dos jogadores e em testes de mecânica, equipar conjuntos de armadura mais pesados aumenta a redução passiva de dano e a resistência a desequilíbrios, mas prejudica a regeneração de estamina e a distância do rolamento. Configurações de armadura mais leves permitem um reposicionamento rápido, tornando-se ideais para estilos ágeis de duelo.
+
+### O espaçamento é mais importante do que o tamanho do combo no combate de Shogun's Reign?
+O espaçamento é amplamente considerado mais vital do que combos longos porque sequências estendidas de ataque podem ser aparadas ou interrompidas. Um bom espaçamento permite induzir erros no ar (whiffs) do inimigo e aplicar punições limpas e sem riscos, mantendo seus próprios recursos seguros.

@@ -14,8 +14,8 @@ export interface SiteConfig {
     twitter?: string;
     tiktok?: string;
   };
-  locales: readonly string[];
-  defaultLocale: string;
+  locales: readonly ("en" | "es" | "pt" | "ja")[];
+  defaultLocale: "en" | "es" | "pt" | "ja";
 }
 
 export const siteConfig: SiteConfig = {
@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/roblox",
     youtube: "https://www.youtube.com/@roblox",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt", "ja"],
   defaultLocale: "en",
 };

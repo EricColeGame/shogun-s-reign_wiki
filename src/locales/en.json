@@ -6,7 +6,19 @@
     "description": "Explore Shogun's Reign Wiki for Edo Japan roleplay guides, progression tips, professions, ranks, and community updates to master your path from villager to Shogun.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "guide": "Guide",
+    "codes": "Codes",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "progression": "Progression",
+    "controls": "Controls",
+    "maps": "Maps",
+    "community": "Community",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "Shogun's Reign Wiki — Codes, Ranks & Edo Roleplay Guides",
@@ -29,7 +41,7 @@
     },
     "updates": {
       "title": "Latest Updates",
-      "browse": "Browse All Guides",
+      "browse": "Browse All Codes",
       "viewAll": "View All"
     },
     "start": {
@@ -475,10 +487,42 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Rank Planner",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "codesGuides": "Codes",
+    "progressionGuides": "Progression",
+    "mechanicsGuides": "Mechanics",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Shogun's Reign Guide",
+    "overviewDescription": "Beginner-friendly Shogun's Reign guides covering how to play, first-session survival, Ryō farming, role selection, and the strategy that carries new players through Edo-period roleplay."
+  },
+  "codes": {
+    "overviewTitle": "Shogun's Reign Codes",
+    "overviewDescription": "Active Shogun's Reign codes, community OC save strings, clothing presets, and the exact import steps used to redeem every promo reward on Roblox."
+  },
+  "characters": {
+    "overviewTitle": "Shogun's Reign Characters",
+    "overviewDescription": "Shogun's Reign character guides covering roles, customization and OC save codes, plus the bosses, enemies, heroes, and lords that shape clan politics."
+  },
+  "mechanics": {
+    "overviewTitle": "Shogun's Reign Mechanics",
+    "overviewDescription": "Core Shogun's Reign systems explained: combat and dueling, katana stances, samurai mechanics, clans, building and housing, and a full units tier list."
+  },
+  "progression": {
+    "overviewTitle": "Shogun's Reign Progression",
+    "overviewDescription": "How progression works in Shogun's Reign — leveling, ranks, unlocks, upgrades, and rewards, plus the fastest routes from peasant to ruler."
+  },
+  "controls": {
+    "overviewTitle": "Shogun's Reign Controls",
+    "overviewDescription": "Full Shogun's Reign controls reference for PC, console, and mobile: keybinds, combat hotkeys, and touchscreen layouts for every action."
+  },
+  "maps": {
+    "overviewTitle": "Shogun's Reign Maps",
+    "overviewDescription": "Shogun's Reign map guides covering every district and landmark — castle grounds, merchant quarters, teahouses, and the roleplay hotspots players use most."
+  },
+  "community": {
+    "overviewTitle": "Shogun's Reign Community",
+    "overviewDescription": "Shogun's Reign community hub: Discord and Reddit resources, patch notes and updates, badge unlocks, and release information for new players."
   }
 }
