@@ -1,1 +1,528 @@
-{}
+{
+  "site": {
+    "name": "Shogun's Reign Wiki",
+    "shortName": "Shogun's Reign",
+    "tagline": "完全ガイド、コード、身分、進行",
+    "description": "Shogun's Reign Wikiでは、江戸時代の日本を舞台にしたロールプレイのガイド、進行のコツ、職業、身分、コミュニティの最新情報を掲載。農民から将軍までの道のりを極めましょう。",
+    "legalNotice": "非公式のファンウィキです。プレイヤーによる、プレイヤーのためのサイトです。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "guide": "ガイド",
+    "codes": "コード",
+    "characters": "キャラクター",
+    "mechanics": "システム",
+    "progression": "進行",
+    "controls": "操作",
+    "maps": "マップ",
+    "community": "コミュニティ",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替える"
+  },
+  "home": {
+    "meta": {
+      "title": "Shogun's Reign Wiki — コード、身分、江戸ロールプレイのガイド",
+      "description": "Roblox『Shogun's Reign』の総合ウィキ。キャラクターセーブコード、身分の進行、職業、両の経済、江戸時代のロールプレイガイドを網羅しています。"
+    },
+    "hero": {
+      "eyebrow": "江戸時代を舞台にしたロールプレイRPG",
+      "title": "Shogun's Reign Wiki",
+      "description": "江戸時代の日本でのロールプレイ、進行システム、職業、身分、経済を扱うShogun's Reignの総合ウィキ。貧しい農民から強大な将軍へと駆け上がるためのガイドです。",
+      "stats": [
+        "Roblox：プラットフォーム",
+        "江戸時代の日本：世界観",
+        "有効なコード",
+        "進行ガイド"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "身分の進行",
+      "tertiaryCta": "有効なコード",
+      "videoLabel": "公式メディア"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのコードを見る",
+      "viewAll": "すべて見る"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "Shogun's Reignでの歩み",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "最初のスポーンからの基本サイクルを学びます。領内を見て回り、労働で最初の両を稼ぎ、自分の遊び方に合った職業を選びましょう。"
+        },
+        {
+          "number": "2",
+          "title": "最速の両稼ぎ",
+          "description": "作物のタイマーがあるため、農業はゲーム内で最も安定した収入源です。収穫を重ね、作物を倉庫に納め、武器を買う前に再投資しましょう。"
+        },
+        {
+          "number": "3",
+          "title": "身分と職業",
+          "description": "労働者から大名まで、6段階の社会階層を駆け上がります。昇進を決めるのは後見人の推薦とロールプレイでの評判であり、単なる所持金ではありません。"
+        },
+        {
+          "number": "4",
+          "title": "コードとOCセーブ",
+          "description": "コミュニティが共有するキャラクターセーブ文字列を取り込めば、アバター調整の手間を何時間も省けます。期間限定のプロモコードが告知される場所も解説します。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題の記事",
+      "quickLinks": [
+        "身分の進行",
+        "両稼ぎ",
+        "OCセーブコード",
+        "戦闘の基本"
+      ],
+      "cards": [
+        {
+          "badge": "初心者向け",
+          "title": "初心者ガイド",
+          "description": "初回セッションの生存術、安全な集落の種類、最初の両の稼ぎ方。",
+          "href": "/guide/shogun-s-reign-beginner-guide"
+        },
+        {
+          "badge": "更新済み",
+          "title": "キャラクターセーブコード",
+          "description": "OCセーブ文字列、プロモコード、カタログのアセットIDの取り込み方法と引き換え手順。",
+          "href": "/codes/shogun-s-reign-codes"
+        },
+        {
+          "badge": "必須",
+          "title": "操作とキー割り当て",
+          "description": "PC・コンソール・モバイルでのダッシュ、インタラクト、運搬、衣装のホットキー。",
+          "href": "/controls/shogun-s-reign-controls"
+        },
+        {
+          "badge": "人気",
+          "title": "身分と階級",
+          "description": "農民から幕府まで6段階の社会階層と、それぞれで解放される内容。",
+          "href": "/progression/shogun-s-reign-ranks"
+        },
+        {
+          "badge": "新着",
+          "title": "キャラクターと種族",
+          "description": "ロールプレイの類型、種族ごとの特性、そして各人物の背後にあるOCセーブの仕組み。",
+          "href": "/characters/shogun-s-reign-characters"
+        },
+        {
+          "badge": "人気",
+          "title": "戦闘システム",
+          "description": "スタミナと体勢の管理、受け流しの猶予、ガードブレイク、武器ごとの相性。",
+          "href": "/mechanics/shogun-s-reign-combat"
+        },
+        {
+          "badge": "人気",
+          "title": "マップと区画",
+          "description": "城郭、商人街、湯屋、芸能広場、居住区など主要な区画の解説。",
+          "href": "/maps/shogun-s-reign-map"
+        },
+        {
+          "badge": "更新済み",
+          "title": "パッチノートとバッジ",
+          "description": "日付入りのローンチ実績、シーズンバッジの追加、Private Domainゲームパス。",
+          "href": "/community/shogun-s-reign-updates"
+        },
+        {
+          "badge": "人気",
+          "title": "ロールプレイのコツ",
+          "description": "街での作法、キャラクター設計、新人が身柄を拘束されてしまう失敗例。",
+          "href": "/guide/shogun-s-reign-tips"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Shogun's Reignとは？",
+      "paragraphs": [
+        "Shogun's Reignは、2026年7月25日に門を開いた、Roblox上の江戸時代の日本を舞台にしたロールプレイ＆進行型の体験です。プレイヤーは身に着けた服以外ほとんど何も持たない状態から始まります。畑を耕して最初の両を稼ぎ、賑やかな城下町、山間の村、神社、武家屋敷を巡りながら、厳格な封建的階層を駆け上がるための富と評判を築いていきます。",
+        "出世は機械的な要素と同じくらい社会的なものです。農民、商人、職人、奉公人といった職業を極め、それぞれに長所と短所を持つ種族を選び、居住地の区画を確保し、独りで作業を繰り返すのではなく後見人の推薦によって身分を獲得します。階梯は労働者や職人から、家臣、侍、公家を経て大名へと続き、その最上位にはたった一つの座、すなわち将軍が待っています。"
+      ],
+      "stats": [
+        {
+          "label": "開発",
+          "value": "Shogun's Reign（Robloxグループ）"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Roblox"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ロールプレイ＆アバターシミュレーション"
+        },
+        {
+          "label": "訪問数",
+          "value": "150万+"
+        },
+        {
+          "label": "お気に入り",
+          "value": "4.8万+"
+        },
+        {
+          "label": "通貨",
+          "value": "両"
+        },
+        {
+          "label": "配信開始",
+          "value": "2026年7月"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Shogun's Reign Wikiを探る",
+      "description": "Shogun's Reignで必要な情報を網羅した8つの厳選モジュール。初回セッションの生存、キャラクターセーブコード、身分の階梯、職業、両の経済、領内マップ、刀での戦闘、最新のパッチノートを扱います。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Shogun's Reign 初心者ガイド",
+          "description": "新規プレイヤー向けの必須の第一歩。領内マップの読み方、安全な開始集落の選び方、最初の両の稼ぎ方、そしてゲームの基本サイクルの理解。",
+          "href": "/guide/shogun-s-reign-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "まず領内を把握しましょう。城下町、山間の村、神社、武家屋敷、そしてそれらを結ぶ街道です。"
+            },
+            {
+              "label": "2",
+              "detail": "最初の1時間は警備された山間の村の近くに留まり、望まないプレイヤー間の衝突を避けましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "労働系の生業で最初の両を稼ぎましょう。農業は初期投資がまったく不要です。"
+            },
+            {
+              "label": "4",
+              "detail": "職業は早めに選びましょう。奉公人、医者（Isha）、芸人、農民、商人、職人などがあります。"
+            },
+            {
+              "label": "5",
+              "detail": "後見人の推薦を得ながら、農民から幕府へと6段階の社会階層を上がっていきます。"
+            },
+            {
+              "label": "6",
+              "detail": "身分に見合わない装いをしてはいけません。ロールプレイ違反は警備に罰金や拘束で罰せられます。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Shogun's Reign コード",
+          "description": "この体験でコードが実際にどう機能するかを解説します。コミュニティのキャラクターセーブ文字列、開発者のプロモコード、カタログのアセットID、そしてそれぞれの取り込みと引き換えの手順です。",
+          "href": "/codes/shogun-s-reign-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OCセーブコード",
+              "detail": "外見・顔・衣装のレイヤーをまとめて取り込む、複数セグメントの英数字文字列です。"
+            },
+            {
+              "label": "プロモコード",
+              "detail": "有効期間中に開始資金や衣装トークンを受け取れる、開発者による短いフレーズです。"
+            },
+            {
+              "label": "アセットID",
+              "detail": "特定のカスタムテクスチャや歴史的なカタログアセットを適用する、9〜11桁の数値IDです。"
+            },
+            {
+              "label": "取り込み手順",
+              "detail": "キャラクターカスタマイズ → 保存/読み込み → コードをインポート → 貼り付けて確定、の順です。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Shogun's Reign 身分ガイド",
+          "description": "農民や職人から家臣、武家の精鋭、公家を経て幕府そのものへと至る、社会的な進行の階梯を解説します。",
+          "href": "/progression/shogun-s-reign-ranks",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "君主層 — 将軍、大名、一族の頭領が統治権と土地の分配を握ります。"
+            },
+            {
+              "label": "A",
+              "detail": "貴族層 — 公家、奥方、旗本、宮廷学者。宮中への出入りと高い俸禄を持ちます。"
+            },
+            {
+              "label": "B",
+              "detail": "武家層 — 侍、町の警備、浪人。武器の携帯と法の執行が認められています。"
+            },
+            {
+              "label": "C",
+              "detail": "生産と商い — 農民、鍛冶屋、職人、店主、行商人。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Shogun's Reign 仕事ガイド",
+          "description": "選択できる職業と稼ぎ方の解説。畑仕事や市場での商いから、宮中への奉仕、製作、治療まで、必要な投資とリスクで比較します。",
+          "href": "/guide/shogun-s-reign-how-to-play",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "農民",
+              "detail": "最もリスクの低い出発点。田を耕し、種をまき、水を引き、米・野菜・茶葉を収穫します。"
+            },
+            {
+              "label": "商人",
+              "detail": "原材料を仕入れ、市場に露店を出し、工芸品・染料・屋台料理を転売します。"
+            },
+            {
+              "label": "奉公人",
+              "detail": "武家屋敷や役所で茶を淹れ、宮中の作法に従って奉仕します。"
+            },
+            {
+              "label": "警備",
+              "detail": "区内を巡回して懸賞金や公的な護衛報酬を得ますが、訓練と装備に両がかかります。"
+            },
+            {
+              "label": "職人",
+              "detail": "製作台で特注の調度品を作り、原材料から武器を組み上げます。"
+            },
+            {
+              "label": "医者（Isha）",
+              "detail": "薬草を集め、薬を調合し、傷ついた侍を治療します。腕の良い治療師は報酬を自分で決められます。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Shogun's Reign 経済ガイド",
+          "description": "両という通貨、富を築く仕組み、交易の機会、住居の維持費を解説し、効率よく進めるための毎時反復ルーティンも紹介します。",
+          "href": "/guide/shogun-s-reign-strategy",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "両",
+              "detail": "領内唯一の通貨で、労働のミニゲーム、露店の売上、武家からの俸禄で得られます。"
+            },
+            {
+              "label": "農業ループ",
+              "detail": "作物タイマーにより農業は最も安定した収入源です。余った穀物は他のプレイヤーに売りましょう。"
+            },
+            {
+              "label": "商い",
+              "detail": "資本は必要ですが伸びは急激です。まとめ買いし、人通りの多い市場の交差点で転売しましょう。"
+            },
+            {
+              "label": "住居",
+              "detail": "住居の確保は両の主な使い道で、町の長屋から塀に囲まれた武家屋敷まであります。"
+            },
+            {
+              "label": "毎時ルーティン",
+              "detail": "農業15分、露店販売20分、奉公人の務め15分、補充10分が目安です。"
+            },
+            {
+              "label": "金融",
+              "detail": "余った両は金融業者に預けましょう。街道で銭を持ち歩くと追い剥ぎを招きます。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Shogun's Reign マップガイド",
+          "description": "城郭、商人街、湯屋、芸能広場、居住区、外縁など、領内の主要な場所を解説します。",
+          "href": "/maps/shogun-s-reign-map",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "城郭",
+              "detail": "将軍の城。統治、高位のロールプレイ、軍事的な指令が制限された門の奥で行われます。"
+            },
+            {
+              "label": "市場",
+              "detail": "鍛冶場、織物工房、薬屋、プレイヤーが運営する露店が並ぶ商人街です。"
+            },
+            {
+              "label": "湯屋",
+              "detail": "公共の湯屋。スタミナ回復の拠点で、奉公人にとって最も人気の初期勤務先です。"
+            },
+            {
+              "label": "舞台",
+              "detail": "三味線の演奏、扇舞、演劇が行われる芸能の舞台です。"
+            },
+            {
+              "label": "居住区",
+              "detail": "確保できる区画がある住宅街。10×10の長屋から武家屋敷まであります。"
+            },
+            {
+              "label": "外縁",
+              "detail": "採取ポイントや領外の荒野へと続く外門と関所です。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Shogun's Reign 戦闘ガイド",
+          "description": "決闘の基本と戦闘の準備。体勢とスタミナの管理、受け流しのタイミング、武器の間合い、そして新人が罰せられる癖を解説します。",
+          "href": "/mechanics/shogun-s-reign-combat",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "2つのゲージを意識しましょう。スタミナは攻撃と回避を支え、体勢はガードした攻撃を吸収して崩れるまで耐えます。"
+            },
+            {
+              "label": "2",
+              "detail": "ガードブレイクは怯み、確定で処刑攻撃を受けます。ガードせずに後退して体勢を立て直しましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "武器の間合いを覚えましょう。打刀、野太刀、槍、短刀、金棒で伸び方が異なります。"
+            },
+            {
+              "label": "4",
+              "detail": "受け流しは振りかぶりから振り下ろしへの切り替わりで行います。連打は禁物で、叩くたびに有効時間が縮みます。"
+            },
+            {
+              "label": "5",
+              "detail": "空振りを誘ってから踏み込みましょう。空振りの罰則を与えるのが最も確実で反撃困難なダメージ源です。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Shogun's Reign アップデートガイド",
+          "description": "日付入りのパッチ、ローンチ実績、シーズンバッジの追加、プレミアムパスを1つの年表にまとめ、復帰したプレイヤーが素早く追いつけるようにしています。",
+          "href": "/community/shogun-s-reign-updates",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "2026年7月25日",
+              "detail": "公開ローンチ。ソロ用ハブ、領内の生成、両を稼ぐ労働ループ、住居の確保が実装されました。"
+            },
+            {
+              "label": "2026年8月",
+              "detail": "バッジシーズンの拡張。導入、政治的な実績、別エンディング、楽器の賞が追加されました。"
+            },
+            {
+              "label": "2026年8月26日",
+              "detail": "謎のバッジ [ The Grind?2026 ] が一覧に追加。公開された確実な報酬はまだありません。"
+            },
+            {
+              "label": "2026年9月12日",
+              "detail": "250 R$のPrivate Domainパスが登場。公開の住居とは別に、カスタム領内インスタンスを提供します。"
+            },
+            {
+              "label": "2026年9月15日",
+              "detail": "9月中旬のプレース更新。UIの応答性、テレポートの安定性、パス検出の修正が入りました。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Shogun's Reign よくある質問",
+      "description": "RobloxのShogun's Reignについて、新規プレイヤーが最も多く尋ねる疑問に手早く答えます。",
+      "items": [
+        {
+          "question": "Shogun's Reignとは何ですか？",
+          "answer": "Shogun's Reignは、Roblox上の江戸時代の日本を舞台にした無料のロールプレイ＆進行型の体験です。無一文の庶民として始まり、農業・商い・奉仕の職業で両を稼ぎ、労働者から大名までの6段階の封建的階層を上がって、ただ一つの将軍の座を目指します。"
+        },
+        {
+          "question": "Shogun's Reignは無料で遊べますか？",
+          "answer": "はい。Shogun's ReignはRobloxで無料で参加でき、進行システム、職業、住居の確保、身分の昇進はすべてプレイによって獲得できます。250 R$のPrivate Domainパスのような任意のRobux購入は、カスタムのプライベートインスタンスや外見・利便性の特典を追加するもので、専用の強さを与えるものではありません。"
+        },
+        {
+          "question": "Shogun's Reignに有効なコードはありますか？",
+          "answer": "Shogun's Reignのコードには3種類あります。キャラクターセーブ文字列はコミュニティが共有する長い英数字コードで、アバターの外見を丸ごと取り込みます。プロモコードは開発者の限定期間にのみ出現します。カタログのアセットIDは特定のテクスチャを適用します。セーブ文字列は大文字と小文字を区別するため、ハイフンも含めてすべてそのままコピーしてください。"
+        },
+        {
+          "question": "Shogun's Reignで両を素早く稼ぐには？",
+          "answer": "作物タイマーが初期投資を必要とせず、他のプレイヤーが買う作物を生み出すため、農業が最も確実な初期収入です。元手ができたら市場の交差点の近くで商人の露店を開き、工芸品、染料、食べ物を転売しましょう。住居の確保が両の主な使い道なので、街道を移動する前に余った銭は預けておきましょう。"
+        },
+        {
+          "question": "Shogun's Reignで身分を上げるには？",
+          "answer": "身分の昇進は純粋な経済力よりも社会的なものです。下位の階層は農業や製作といった経済的な産出で進みますが、侍、公家、大名の地位には後見人の推薦、一族の承認、継続的なロールプレイが必要です。また、犯罪、一族の掟破り、長期間の不在によって身分を失うこともあります。"
+        },
+        {
+          "question": "Shogun's Reignでは何を演じられますか？",
+          "answer": "キャラクター作成では種族の選択と職業を組み合わせます。種族には人間、狐（Kitsune）、鬼（Oni）、天狗（Tengu）、狸（Tanuki）があり、それぞれに長所と短所があります。職業は農民、商人、職人から奉公人、医者（Isha）、芸人まで幅広く、後から転職できるため縛られることはありません。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Shogun's Reignを極める準備はできましたか？",
+      "description": "農民としての慎ましい始まりから将軍の座を勝ち取るまで、当コミュニティウィキが無料で最新のガイドとともに支えます。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Robloxでプレイ"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "ウィキ内ナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクションの内容",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだガイドがありません。しばらくしてから再度ご確認ください。"
+  },
+  "footer": {
+    "aboutTitle": "Shogun's Reign Wiki",
+    "about": "Shogun's Reign Wikiは、江戸時代の日本のロールプレイシステム、職業、身分、戦闘、そしてすべてのプレイヤーに必要な進行の知識を扱う、ファン制作の独立したガイド拠点です。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的事項",
+    "copyright": "2026 Shogun's Reign Wiki. Robloxとは提携していません。",
+    "description": "Robloxの江戸時代ロールプレイRPG。職業、身分、一族の名誉を通じて農民から将軍へ。",
+    "playGame": "Shogun's Reignをプレイ",
+    "officialDiscord": "公式Discord",
+    "officialYoutube": "公式YouTube",
+    "vvBuilder": "身分プランナー",
+    "beginnerGuide": "初心者ガイド",
+    "codesGuides": "コード",
+    "progressionGuides": "進行",
+    "mechanicsGuides": "システム",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "guide": {
+    "overviewTitle": "Shogun's Reign ガイド",
+    "overviewDescription": "遊び方、初回セッションの生存、両稼ぎ、役割の選び方、そして江戸時代のロールプレイを新規プレイヤーが乗り越えるための戦略を扱う、初心者向けのShogun's Reignガイド。"
+  },
+  "codes": {
+    "overviewTitle": "Shogun's Reign コード",
+    "overviewDescription": "有効なShogun's Reignコード、コミュニティのOCセーブ文字列、衣装プリセット、そしてRobloxでプロモ報酬を引き換える正確な手順。"
+  },
+  "characters": {
+    "overviewTitle": "Shogun's Reign キャラクター",
+    "overviewDescription": "役割、カスタマイズ、OCセーブコードを扱うShogun's Reignのキャラクターガイド。一族の政治を形作るボス、敵、英雄、領主も解説します。"
+  },
+  "mechanics": {
+    "overviewTitle": "Shogun's Reign システム",
+    "overviewDescription": "Shogun's Reignの主要システムを解説。戦闘と決闘、刀の構え、侍の仕組み、一族、建築と住居、そしてユニットのティアリストを網羅します。"
+  },
+  "progression": {
+    "overviewTitle": "Shogun's Reign 進行",
+    "overviewDescription": "Shogun's Reignの進行の仕組み。レベル、身分、解放要素、強化、報酬に加え、農民から支配者へ至る最速の道筋を解説します。"
+  },
+  "controls": {
+    "overviewTitle": "Shogun's Reign 操作",
+    "overviewDescription": "PC・コンソール・モバイル向けのShogun's Reign操作一覧。キー割り当て、戦闘のホットキー、すべての行動のタッチ操作を掲載しています。"
+  },
+  "maps": {
+    "overviewTitle": "Shogun's Reign マップ",
+    "overviewDescription": "城郭、商人街、茶屋など、すべての区画とランドマークを扱うShogun's Reignのマップガイド。プレイヤーが最も多く使うロールプレイの拠点も紹介します。"
+  },
+  "community": {
+    "overviewTitle": "Shogun's Reign コミュニティ",
+    "overviewDescription": "Shogun's Reignのコミュニティ拠点。DiscordとRedditの情報、パッチノートとアップデート、バッジの解放、新規プレイヤー向けのリリース情報をまとめています。"
+  }
+}
